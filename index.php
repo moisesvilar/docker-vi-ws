@@ -29,7 +29,6 @@
 </html>
 <?php
 function getChuck() {
-	$index = rand(0, 14);
 	$chucks = array(
 	'La gente usa pijamas de Superman, Superman usa pijamas de Chuck Norris.',
 	'Las lagrimas de Chuck Norris curan el Cancer, es una lastima que el nunca haya llorado.',
@@ -47,5 +46,6 @@ function getChuck() {
 	'Chuck Norris puede quemar una hormiga con una lupa... de noche.',
 	'Chuck Norris pidió un Big Mac en un Burger King y le hicieron uno.'
 	);
+	$index = rand(0, count($chucks)-1);
 	return $chucks[$index];
 }
