@@ -44,7 +44,8 @@ function getChuck() {
 	'Chuck Norris perdió la virginidad antes que su padre.',
 	'Chuck Norris puede dividir entre cero.',
 	'Chuck Norris puede quemar una hormiga con una lupa... de noche.',
-	'Chuck Norris pidió un Big Mac en un Burger King y le hicieron uno.'
+	'Chuck Norris pidió un Big Mac en un Burger King y le hicieron uno.',
+	'1.200 millones de chinos están furiosos con Chuck Norris. Parece una pelea justa... ',
 	);
 	$index = rand(0, count($chucks)-1);
 	return $chucks[$index];
